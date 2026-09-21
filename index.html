@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC CGL 2026 GK/GS Guide — Topic-wise Notes, Tricks & Quiz</title>
+<meta name="description" content="Free interactive SSC CGL 2026 General Knowledge & General Science guide: History, Geography, Polity, Economy, Science, Static GK, Current Affairs 2025-26, and a 45-question practice quiz.">
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN/gk-gs/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#10192e; --navy2:#1b2947; --gold:#c9a24b; --gold2:#e2c77a;
+  --cream:#faf6ec; --cream2:#f2ecd9; --ink:#1c1c1c; --sub:#5b5646;
+  --green:#3f7a4f; --red:#a3403a; --line:#e4dcc4;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{
+  background:var(--cream); color:var(--ink); font-family:'Inter',system-ui,-apple-system,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+::-webkit-scrollbar{height:8px; width:8px;}
+::-webkit-scrollbar-thumb{background:var(--gold); border-radius:4px;}
+
+/* ---------- HERO ---------- */
+.hero{
+  background:radial-gradient(ellipse at top, #1c2946 0%, var(--navy) 55%, #0a0f1e 100%);
+  color:#f4efe0; padding:48px 20px 34px; text-align:center; position:relative; overflow:hidden;
+}
+.hero::before, .hero::after{
+  content:""; position:absolute; width:340px; height:340px; border-radius:50%;
+  border:1px solid rgba(201,162,75,.18); top:-140px; left:-100px;
+}
+.hero::after{ left:auto; right:-120px; top:auto; bottom:-160px; width:260px; height:260px; }
+.hero-eyebrow{
+  letter-spacing:.22em; text-transform:uppercase; font-size:11px; color:var(--gold2);
+  font-weight:700; margin-bottom:10px;
+}
+.hero h1{
+  font-family:'Playfair Display',serif; font-weight:800; font-size:clamp(28px,5vw,44px);
+  line-height:1.15; margin-bottom:10px;
+}
+.hero h1 em{ color:var(--gold2); font-style:italic; }
+.hero p{ max-width:640px; margin:0 auto; color:#cfc9b6; font-size:14.5px; line-height:1.6; }
+.hero-stats{ display:flex; justify-content:center; gap:26px; margin-top:22px; flex-wrap:wrap; }
+.hero-stat{ text-align:center; }
+.hero-stat b{ display:block; font-family:'Playfair Display',serif; font-size:22px; color:var(--gold2); }
+.hero-stat span{ font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:#a9a48f; }
+
+/* ---------- TABS ---------- */
+.tabbar-wrap{ background:var(--navy2); position:sticky; top:0; z-index:50; box-shadow:0 2px 14px rgba(0,0,0,.25); }
+.tabbar{
+  display:flex; overflow-x:auto; scrollbar-width:none; max-width:1180px; margin:0 auto;
+}
+.tabbar::-webkit-scrollbar{display:none;}
+.tab{
+  flex:0 0 auto; padding:13px 18px; font-size:12.5px; font-weight:700; letter-spacing:.03em;
+  color:#b9c0d6; cursor:pointer; white-space:nowrap; border-bottom:3px solid transparent;
+  transition:.15s; text-transform:uppercase;
+}
+.tab:hover{ color:#fff; }
+.tab.active{ color:var(--gold2); border-bottom-color:var(--gold); background:rgba(201,162,75,.08); }
+
+/* ---------- LAYOUT ---------- */
+.wrap{ max-width:1180px; margin:0 auto; padding:30px 20px 80px; }
+.panel{ display:none; animation:fade .25s ease; }
+.panel.active{ display:block; }
+@keyframes fade{ from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;} }
+
+.section-title{
+  font-family:'Playfair Display',serif; font-size:26px; font-weight:700; color:var(--navy);
+  margin:34px 0 6px; display:flex; align-items:center; gap:10px;
+}
+.section-title:first-child{ margin-top:0; }
+.section-num{
+  background:var(--navy); color:var(--gold2); font-family:'Playfair Display',serif;
+  font-size:14px; width:30px; height:30px; border-radius:50%; display:flex; align-items:center;
+  justify-content:center; flex:0 0 auto;
+}
+.section-sub{ color:var(--sub); font-size:13.5px; margin-bottom:16px; max-width:800px; }
+
+.card{
+  background:#fff; border:1px solid var(--line); border-radius:10px; padding:18px 20px;
+  margin-bottom:14px; box-shadow:0 1px 3px rgba(0,0,0,.03);
+}
+.card h3{ font-size:15.5px; color:var(--navy); margin-bottom:8px; font-weight:800; }
+.card h3 .tag{
+  display:inline-block; background:var(--cream2); color:var(--sub); font-size:10px; font-weight:700;
+  padding:2px 7px; border-radius:4px; margin-left:8px; text-transform:uppercase; letter-spacing:.04em; vertical-align:1px;
+}
+.card ul{ padding-left:18px; font-size:13.6px; line-height:1.7; color:#2b2b2b; }
+.card ul li{ margin-bottom:3px; }
+.card p{ font-size:13.6px; line-height:1.7; color:#2b2b2b; }
+.card table{ width:100%; border-collapse:collapse; font-size:13px; margin-top:6px; }
+.card table th{ background:var(--navy); color:#eee2c0; text-align:left; padding:6px 9px; font-size:11.5px; text-transform:uppercase; letter-spacing:.03em; }
+.card table td{ padding:6px 9px; border-bottom:1px solid var(--line); }
+.card table tr:nth-child(even) td{ background:#faf8f0; }
+
+.grid2{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.grid3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; }
+@media(max-width:760px){ .grid2, .grid3{ grid-template-columns:1fr; } }
+
+.trick{
+  background:linear-gradient(135deg,#fff8e6,#fdf1d8); border-left:4px solid var(--gold);
+  border-radius:0 8px 8px 0; padding:11px 15px; margin-top:10px; font-size:13px; line-height:1.6;
+}
+.trick b{ color:#8a6a1a; text-transform:uppercase; font-size:10.5px; letter-spacing:.05em; display:block; margin-bottom:3px; }
+
+.pyq{
+  background:#f4f7f4; border:1px dashed #8fae94; border-radius:8px; padding:12px 15px; margin-top:10px;
+}
+.pyq b{ color:var(--green); font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; display:block; margin-bottom:4px; }
+.pyq p{ font-size:13.2px; }
+.pyq .ans{ margin-top:5px; font-size:12.8px; color:var(--green); font-weight:700; }
+
+.ca-item{ border-left:3px solid var(--navy); padding:8px 0 8px 14px; margin-bottom:10px; }
+.ca-item .date{ font-size:10.5px; color:var(--gold); font-weight:800; text-transform:uppercase; letter-spacing:.05em; }
+.ca-item p{ font-size:13.4px; color:#2b2b2b; line-height:1.6; margin-top:2px; }
+
+.pill-row{ display:flex; flex-wrap:wrap; gap:7px; margin:10px 0 4px; }
+.pill{ background:var(--navy); color:#e9dfbb; font-size:11.5px; padding:4px 11px; border-radius:20px; font-weight:600; }
+
+/* ---------- QUIZ ---------- */
+.quiz-box{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:22px; }
+.quiz-top{ display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:10px; }
+.quiz-progress{ font-size:12.5px; color:var(--sub); font-weight:700; }
+.quiz-score{ font-family:'Playfair Display',serif; font-size:20px; color:var(--navy); }
+.qtext{ font-size:15.5px; font-weight:700; color:var(--navy); margin-bottom:14px; line-height:1.5; }
+.opt{
+  display:block; width:100%; text-align:left; background:var(--cream); border:1.5px solid var(--line);
+  border-radius:8px; padding:11px 14px; margin-bottom:9px; font-size:13.6px; cursor:pointer; transition:.12s;
+  font-family:inherit; color:var(--ink);
+}
+.opt:hover{ border-color:var(--gold); }
+.opt.correct{ background:#e5f3e6; border-color:var(--green); color:#215a2b; font-weight:700; }
+.opt.wrong{ background:#fbe6e4; border-color:var(--red); color:#7a2b26; font-weight:700; }
+.opt[disabled]{ cursor:default; }
+.quiz-explain{ background:var(--cream2); border-radius:8px; padding:11px 14px; font-size:12.8px; margin-top:8px; display:none; color:var(--sub); }
+.quiz-nav{ display:flex; justify-content:flex-end; gap:10px; margin-top:16px; }
+.btn{
+  background:var(--navy); color:var(--gold2); border:none; padding:10px 20px; border-radius:7px;
+  font-weight:700; font-size:12.8px; cursor:pointer; letter-spacing:.03em; text-transform:uppercase;
+}
+.btn:hover{ background:#0c1424; }
+.btn.secondary{ background:transparent; color:var(--navy); border:1.5px solid var(--navy); }
+.quiz-cat-picker{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px; }
+.cat-btn{
+  border:1.5px solid var(--navy); color:var(--navy); background:#fff; padding:7px 14px; border-radius:20px;
+  font-size:12px; font-weight:700; cursor:pointer;
+}
+.cat-btn.on{ background:var(--navy); color:var(--gold2); }
+.quiz-result{ text-align:center; padding:30px 10px; }
+.quiz-result .score-big{ font-family:'Playfair Display',serif; font-size:48px; color:var(--navy); }
+
+/* ---------- FOOTER ---------- */
+.foot{ text-align:center; padding:24px; color:var(--sub); font-size:12px; background:var(--cream2); }
+.toc{ display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:14px; }
+@media(max-width:700px){ .toc{ grid-template-columns:1fr 1fr; } }
+.toc a{
+  display:block; background:#fff; border:1px solid var(--line); border-radius:8px; padding:10px 12px;
+  font-size:12.5px; font-weight:700; color:var(--navy); text-decoration:none;
+}
+.toc a:hover{ border-color:var(--gold); }
+</style>
+</head>
+<body>
+<div style="background:#0a0f1e;color:#cfc9b6;font-family:Inter,system-ui,sans-serif;font-size:12.5px;padding:9px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;letter-spacing:.02em;">
+  <a href="../index.html" style="color:#e2c77a;font-weight:700;text-decoration:none;">SSC CGL Hub</a>
+  <span style="opacity:.4;">|</span>
+  <a href="../gk-gs/index.html" style="color:#cfc9b6;text-decoration:none;">GK/GS</a>
+  <a href="../maths/index.html" style="color:#cfc9b6;text-decoration:none;">Maths</a>
+  <a href="../english/index.html" style="color:#cfc9b6;text-decoration:none;">English</a>
+</div>
+
+<div class="hero">
+  <div class="hero-eyebrow">Siddhant's Exam Toolkit · Tier‑I, 30 Sept – 30 Oct 2026</div>
+  <h1>SSC CGL 2026<br><em>GK / GS Ultimate Guide</em></h1>
+  <p>Every high-weightage static topic + tricks + error-checked current affairs (Sept 2025 – Sept 2026), built around the actual pattern of SSC CGL 2025 shifts. One page, full revision, nothing else to open.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><b>9</b><span>Topic Tabs</span></div>
+    <div class="hero-stat"><b>60+</b><span>Quiz Questions</span></div>
+    <div class="hero-stat"><b>25Q</b><span>GA in Tier‑I</span></div>
+    <div class="hero-stat"><b>2025‑26</b><span>Current Affairs</span></div>
+  </div>
+</div>
+
+<div class="tabbar-wrap">
+  <div class="tabbar" id="tabbar">
+    <div class="tab active" data-p="overview">Strategy</div>
+    <div class="tab" data-p="history">History</div>
+    <div class="tab" data-p="geography">Geography</div>
+    <div class="tab" data-p="polity">Polity</div>
+    <div class="tab" data-p="economy">Economy</div>
+    <div class="tab" data-p="science">Science</div>
+    <div class="tab" data-p="staticgk">Static GK</div>
+    <div class="tab" data-p="ca">Current Affairs</div>
+    <div class="tab" data-p="quiz">Quiz Mode</div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<!-- ============ OVERVIEW ============ -->
+<div class="panel active" id="p-overview">
+  <div class="section-title"><span class="section-num">0</span>How This GA Section Actually Works</div>
+  <div class="section-sub">GA is 25Q / 50 marks in Tier‑I. Based on SSC CGL 2025 shift-wise analysis, here's exactly where the marks come from.</div>
+
+  <div class="grid3">
+    <div class="card"><h3>Static GK — 60–70%</h3><p>History, Geography, Polity, Economy, Science together account for roughly 15–17 of the 25 GA questions. This is the part you can master permanently — it never changes.</p></div>
+    <div class="card"><h3>Current Affairs — 30–40%</h3><p>4–8 questions from the last 6–12 months: appointments, schemes, summits, sports, awards, defence exercises, science/space news. Cover Oct 2025 → exam month.</p></div>
+    <div class="card"><h3>Realistic Target</h3><p>15–17 correct out of 25 is a strong, achievable Tier‑I GA score. Static GK should be near-perfect; treat current affairs as the swing factor.</p></div>
+  </div>
+
+  <div class="section-title" style="margin-top:26px"><span class="section-num">1</span>Topic-Wise Priority (2025 shift pattern)</div>
+  <div class="card">
+    <table>
+      <tr><th>Subject</th><th>Avg Qs/25</th><th>Highest-yield sub-topics</th></tr>
+      <tr><td><b>Polity</b></td><td>4–5</td><td>Fundamental Rights, Parliament, Articles, Constitutional bodies, Amendments</td></tr>
+      <tr><td><b>History</b></td><td>4–5</td><td>Modern History / Freedom Movement, Revolt of 1857, Ancient dynasties, Buddhism/Jainism</td></tr>
+      <tr><td><b>Geography</b></td><td>3–4</td><td>Indian rivers, Monsoon, Soil types, World physical geography, Passes/straits</td></tr>
+      <tr><td><b>Science</b></td><td>4–5</td><td>Human body & diseases, Vitamins/deficiency, Physics units, Everyday chemistry</td></tr>
+      <tr><td><b>Economy</b></td><td>2–3</td><td>Budget terms, Inflation, Five-Year Plans, Banking/RBI, Tax types</td></tr>
+      <tr><td><b>Static GK</b></td><td>3–4</td><td>Books & authors, Schemes, Dance forms, First in India, Sports GK</td></tr>
+      <tr><td><b>Current Affairs</b></td><td>4–8</td><td>Appointments, Summits, Sports events, Awards, Defence, Science/space</td></tr>
+    </table>
+    <div class="trick"><b>Trick</b>Polity + History + Science alone = ~13–15 of 25 questions. Master these three first — they carry more weight than current affairs and don't expire.</div>
+  </div>
+
+  <div class="section-title"><span class="section-num">2</span>Jump To a Section</div>
+  <div class="toc">
+    <a href="#" onclick="go('history');return false;">📜 History</a>
+    <a href="#" onclick="go('geography');return false;">🌍 Geography</a>
+    <a href="#" onclick="go('polity');return false;">⚖️ Polity</a>
+    <a href="#" onclick="go('economy');return false;">💰 Economy</a>
+    <a href="#" onclick="go('science');return false;">🔬 Science</a>
+    <a href="#" onclick="go('staticgk');return false;">📚 Static GK</a>
+    <a href="#" onclick="go('ca');return false;">📰 Current Affairs</a>
+    <a href="#" onclick="go('quiz');return false;">✅ Quiz Mode</a>
+  </div>
+</div>
+
+<!-- ============ HISTORY ============ -->
+<div class="panel" id="p-history">
+  <div class="section-title"><span class="section-num">1</span>Ancient India</div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Indus Valley Civilisation <span class="tag">high yield</span></h3>
+      <ul>
+        <li><b>Harappa</b> — Ravi river, Punjab (Pak); first discovered (1921, Daya Ram Sahni); granaries</li>
+        <li><b>Mohenjo-daro</b> — Indus river, Sindh (1922, R.D. Banerji); "Mound of the Dead"; Great Bath, bronze dancing girl</li>
+        <li><b>Lothal</b> — Gujarat; dockyard, bead-making</li>
+        <li><b>Dholavira</b> — Gujarat; water conservation, signboard</li>
+        <li><b>Kalibangan</b> — Rajasthan; ploughed field, fire altars</li>
+        <li>Script: undeciphered; Town planning: grid pattern, drainage; worshipped Mother Goddess & Pashupati (proto-Shiva)</li>
+      </ul>
+      <div class="trick"><b>Trick</b>"HR-MoI-LoG-DoG-KaR" — Harappa-Ravi, Mohenjodaro-Indus, Lothal-Gujarat(dock), Dholavira-Gujarat, Kalibangan-Rajasthan.</div>
+    </div>
+    <div class="card">
+      <h3>Vedic Age</h3>
+      <ul>
+        <li><b>Rigveda</b> — oldest text, 10 mandalas, hymns to gods (Agni, Indra)</li>
+        <li>Early Vedic (1500–1000 BCE): pastoral, tribal (Jana), Sabha & Samiti</li>
+        <li>Later Vedic (1000–600 BCE): agriculture, iron use, varna system rigid, Gangetic plains</li>
+        <li>4 Vedas: Rig, Sama, Yajur, Atharva | Upanishads = philosophical end of Vedas ("Vedanta")</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Buddhism & Jainism <span class="tag">high yield</span></h3>
+      <ul>
+        <li><b>Buddha</b> (563–483 BCE): born Lumbini, enlightenment at Bodh Gaya, first sermon Sarnath, died Kushinagar — "4 Great Events"</li>
+        <li>4 Noble Truths, 8-Fold Path, Middle Path; First Council — Rajgriha; language: Pali</li>
+        <li><b>Mahavira</b> (599–527 BCE): 24th Tirthankara, born Vaishali/Kundagrama; 5 vows incl. Ahimsa; language: Prakrit</li>
+        <li>First Jain council: Pataliputra; Second: Vallabhi</li>
+      </ul>
+      <div class="trick"><b>Trick</b>Buddha's life = "Born-Enlightened-Preached-Died" → Lumbini-BodhGaya-Sarnath-Kushinagar (alphabetical-ish order of events, not places).</div>
+      <div class="pyq"><b>PYQ pattern (2025)</b><p>Q: Mahavira attained Kaivalya (omniscience) at which place?</p><div class="ans">Ans: Jrimbhikagrama</div></div>
+    </div>
+    <div class="card">
+      <h3>Mauryan & Gupta Empires</h3>
+      <ul>
+        <li><b>Chandragupta Maurya</b> — founded Mauryan empire (321 BCE), guided by Chanakya (Arthashastra)</li>
+        <li><b>Ashoka</b> — Kalinga War (261 BCE) → embraced Buddhism; Edicts, Sanchi Stupa; symbol: Lion Capital (Sarnath) = national emblem</li>
+        <li><b>Gupta Age</b> = "Golden Age": Chandragupta I, Samudragupta ("Napoleon of India"), Chandragupta II (Vikramaditya)</li>
+        <li>Gupta era: Aryabhata (zero, astronomy), Kalidasa (Abhijnanashakuntalam), Nalanda University established</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">2</span>Medieval India</div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Delhi Sultanate (1206–1526)</h3>
+      <ul>
+        <li><b>Slave/Mamluk</b> — Qutb-ud-din Aibak (started Qutub Minar), Iltutmish, Razia Sultana (only woman ruler)</li>
+        <li><b>Khilji</b> — Alauddin Khilji: market reforms, Chittor conquest</li>
+        <li><b>Tughlaq</b> — Muhammad bin Tughlaq: capital shift to Devagiri, token currency</li>
+        <li><b>Lodi</b> — last dynasty; Ibrahim Lodi lost First Battle of Panipat (1526) to Babur</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Mughal Empire (1526–1857)</h3>
+      <ul>
+        <li><b>Babur</b> (1526–30) — founder, 1st Battle of Panipat defeated Ibrahim Lodi</li>
+        <li><b>Akbar</b> — Din-i-Ilahi, Mansabdari system, Battle of Haldighati (vs Rana Pratap, 1576)</li>
+        <li><b>Shah Jahan</b> — Taj Mahal, Red Fort, Peacock Throne</li>
+        <li><b>Aurangzeb</b> — last powerful Mughal; reimposed Jizya; empire declined after</li>
+      </ul>
+      <div class="trick"><b>Trick</b>Mughal order: "Be Humble, Akbar Just Serves Aurangzeb" — Babur, Humayun, Akbar, Jahangir, Shah Jahan, Aurangzeb.</div>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">3</span>Modern India — Freedom Movement <span class="tag">most repeated in SSC</span></div>
+  <div class="card">
+    <h3>Timeline of key events</h3>
+    <table>
+      <tr><th>Year</th><th>Event</th></tr>
+      <tr><td>1757</td><td>Battle of Plassey — Robert Clive defeats Siraj-ud-Daulah</td></tr>
+      <tr><td>1764</td><td>Battle of Buxar — British power confirmed in Bengal</td></tr>
+      <tr><td>1857</td><td>Revolt of 1857 — Mangal Pandey (Barrackpore); leaders: Rani Lakshmibai (Jhansi), Bahadur Shah II (Delhi), Tantia Tope, Nana Saheb</td></tr>
+      <tr><td>1885</td><td>Indian National Congress founded — A.O. Hume; 1st session Bombay, President W.C. Banerjee</td></tr>
+      <tr><td>1905</td><td>Bengal Partition — Lord Curzon; annulled 1911</td></tr>
+      <tr><td>1906</td><td>Muslim League founded — Dhaka</td></tr>
+      <tr><td>1919</td><td>Jallianwala Bagh massacre — Amritsar, Gen. Dyer</td></tr>
+      <tr><td>1920</td><td>Non-Cooperation Movement launched by Gandhi</td></tr>
+      <tr><td>1930</td><td>Civil Disobedience — Dandi March (Salt Satyagraha)</td></tr>
+      <tr><td>1942</td><td>Quit India Movement — "Do or Die"</td></tr>
+      <tr><td>1947</td><td>Independence — 15 Aug; Partition (Mountbatten Plan)</td></tr>
+    </table>
+    <div class="trick"><b>Trick</b>"PB-BB-1857-INC-Ben-ML-JB-NC-CD-QI-Ind" in that exact chronological chain locks the century into one string you can recite.</div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Key Personalities & Associations</h3>
+      <ul>
+        <li>Lokmanya Tilak — "Swaraj is my birthright"; Kesari, Maratha newspapers</li>
+        <li>Subhas Chandra Bose — Indian National Army (INA/Azad Hind Fauj), "Jai Hind", "Give me blood..."</li>
+        <li>Bhagat Singh, Rajguru, Sukhdev — Lahore Conspiracy Case, HSRA</li>
+        <li>Gandhi's movements: Champaran (1917, indigo), Kheda (1918), Ahmedabad Mill Strike (1918)</li>
+        <li>Cabinet Mission (1946); Mountbatten Plan (June 1947) → Indian Independence Act 1947</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Acts & Reforms</h3>
+      <ul>
+        <li>Regulating Act 1773 — 1st Governor-General: Warren Hastings</li>
+        <li>Pitt's India Act 1784 — dual control</li>
+        <li>Charter Act 1833 — Governor-General of India (Lord William Bentinck 1st)</li>
+        <li>Indian Councils Act 1861, 1892, 1909 (Morley-Minto — separate electorates)</li>
+        <li>Government of India Act 1919 (Montagu-Chelmsford, dyarchy) & 1935 (federal structure, basis of Constitution)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="pyq"><b>PYQ pattern (2025 shifts)</b><p>Q: Who founded the Indian National Congress in 1885? / Q: The Jallianwala Bagh massacre took place in which year? / Q: Who gave the slogan "Do or Die"?</p><div class="ans">Ans: A.O. Hume | 1919 | Mahatma Gandhi (Quit India, 1942)</div></div>
+</div>
+
+<!-- ============ GEOGRAPHY ============ -->
+<div class="panel" id="p-geography">
+  <div class="section-title"><span class="section-num">1</span>Physical Geography — India</div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Mountain Ranges</h3>
+      <ul>
+        <li>Himalayas: Himadri (Greater, highest, K2/Everest belt), Himachal (Middle, hill stations), Shiwalik (Outer, foothills)</li>
+        <li>Peninsular: Aravalli (oldest fold mountains, Rajasthan), Western Ghats (Sahyadri — continuous, higher), Eastern Ghats (discontinuous, lower)</li>
+        <li>Highest peak in India: Kanchenjunga (Sikkim) — highest fully within India</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Rivers <span class="tag">high yield</span></h3>
+      <ul>
+        <li><b>Himalayan (perennial):</b> Ganga (Gangotri), Yamuna (Yamunotri), Brahmaputra (Tibet, enters via Arunachal), Indus (Tibet)</li>
+        <li><b>Peninsular (rain-fed):</b> Godavari ("Dakshin Ganga", longest peninsular), Krishna, Kaveri, Narmada & Tapi (flow West, rift valleys — exceptions)</li>
+        <li>Ganga tributaries: Yamuna, Gomti, Ghaghra, Son, Chambal, Kosi (Kosi = "Sorrow of Bihar", floods)</li>
+        <li>Longest river in India: Ganga (~2525 km)</li>
+      </ul>
+      <div class="trick"><b>Trick</b>"NaTa go West" — Narmada & Tapi are the only major rivers flowing West into Arabian Sea via rift valleys; everything else (Ganga, Godavari, Krishna, Kaveri, Mahanadi) flows East into Bay of Bengal.</div>
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Monsoon & Climate <span class="tag">high yield</span></h3>
+      <ul>
+        <li>SW Monsoon (Jun–Sep): main rainy season; enters via Kerala (~1 June); 2 branches — Arabian Sea & Bay of Bengal</li>
+        <li>Mawsynram & Cherrapunji (Meghalaya) — highest rainfall in India/world</li>
+        <li>NE Monsoon (Oct–Dec): "retreating monsoon"; brings rain to Tamil Nadu coast</li>
+        <li>Köppen classification used for India's climate types</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Soil Types</h3>
+      <ul>
+        <li>Alluvial — most fertile, Indo-Gangetic plain, wheat/rice/sugarcane</li>
+        <li>Black (Regur) — Deccan trap, cotton-growing (Maharashtra, MP, Gujarat)</li>
+        <li>Red — southern plateau, iron oxide gives colour</li>
+        <li>Laterite — heavy rainfall areas, tea/coffee/cashew (Kerala, Karnataka)</li>
+        <li>Arid/Desert — Rajasthan; Mountain/Forest soil — Himalayan region</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">2</span>World Geography</div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Must-know facts</h3>
+      <ul>
+        <li>Largest continent: Asia | Smallest: Australia | Largest ocean: Pacific | Longest river: Nile</li>
+        <li>Largest desert (hot): Sahara | Largest cold desert: Antarctica</li>
+        <li>Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram</li>
+        <li>Strait of Malacca — Indonesia/Malaysia; Palk Strait — India/Sri Lanka; Gibraltar — Spain/Morocco</li>
+        <li>International Date Line — 180° longitude, passes through Pacific</li>
+      </ul>
+      <div class="trick"><b>Trick</b>Tropic of Cancer states mnemonic: "Gujju Raja Mange Chhola JharSa Tripura's Mizo" (Gujarat-Rajasthan-MP-Chhattisgarh-Jharkhand-WB-Tripura-Mizoram, west to east).</div>
+    </div>
+    <div class="card">
+      <h3>India's neighbours & borders</h3>
+      <ul>
+        <li>Land borders 7 countries: Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar, Afghanistan</li>
+        <li>Longest land border with Bangladesh; longest coastline state: Gujarat</li>
+        <li>Radcliffe Line — India-Pakistan; McMahon Line — India-China; Durand Line — Pakistan-Afghanistan</li>
+        <li>India's southernmost point: Indira Point (Great Nicobar) | Northernmost: Indira Col</li>
+      </ul>
+      <div class="pyq"><b>PYQ pattern (2025)</b><p>Q: Which line demarcates the India-China border?</p><div class="ans">Ans: McMahon Line</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ POLITY ============ -->
+<div class="panel" id="p-polity">
+  <div class="section-title"><span class="section-num">1</span>Constitution Basics <span class="tag">highest-yield subject</span></div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Framework</h3>
+      <ul>
+        <li>Adopted: 26 Nov 1949 (Constitution Day); Enforced: 26 Jan 1950 (Republic Day)</li>
+        <li>Longest written constitution in the world; originally 395 Articles, 22 Parts, 8 Schedules (now 12 Schedules, ~470+ Articles after amendments)</li>
+        <li>Drafting Committee Chairman: Dr. B.R. Ambedkar; Constituent Assembly President: Dr. Rajendra Prasad</li>
+        <li>Borrowed: Fundamental Rights (USA), Directive Principles (Ireland), Parliamentary system (UK), Federal system (Canada)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Preamble</h3>
+      <ul>
+        <li>Words: Sovereign, Socialist, Secular, Democratic, Republic + Justice, Liberty, Equality, Fraternity</li>
+        <li>"Socialist" & "Secular" added by 42nd Amendment (1976) — "Mini Constitution"</li>
+        <li>Preamble is NOT enforceable in court but reflects the Constitution's spirit (Kesavananda Bharati case, 1973)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">2</span>Fundamental Rights & Duties <span class="tag">high yield</span></div>
+  <div class="card">
+    <table>
+      <tr><th>Article</th><th>Right/Provision</th></tr>
+      <tr><td>14–18</td><td>Right to Equality</td></tr>
+      <tr><td>19–22</td><td>Right to Freedom</td></tr>
+      <tr><td>23–24</td><td>Right against Exploitation</td></tr>
+      <tr><td>25–28</td><td>Right to Freedom of Religion</td></tr>
+      <tr><td>29–30</td><td>Cultural & Educational Rights</td></tr>
+      <tr><td>32</td><td>Right to Constitutional Remedies — "Heart & Soul" (Ambedkar)</td></tr>
+      <tr><td>21</td><td>Right to Life & Personal Liberty (widest interpreted)</td></tr>
+      <tr><td>21A</td><td>Right to Education (86th Amendment)</td></tr>
+      <tr><td>51A</td><td>Fundamental Duties (11, added by 42nd Amendment, 1976, from Swaran Singh Committee)</td></tr>
+    </table>
+    <div class="trick"><b>Trick</b>Originally 7 Fundamental Rights; Right to Property (Art 31) removed by 44th Amendment (1978) — now only a legal right (Art 300A). Remember 6 remaining: E-F-E-R-C-C (Equality-Freedom-Exploitation-Religion-Cultural-Constitutional remedies).</div>
+    <div class="pyq"><b>PYQ pattern (2025)</b><p>Q: Which Article is called the "Heart and Soul" of the Constitution?</p><div class="ans">Ans: Article 32 (Right to Constitutional Remedies)</div></div>
+  </div>
+
+  <div class="section-title"><span class="section-num">3</span>Union & State Government</div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Parliament</h3>
+      <ul>
+        <li>Bicameral: Lok Sabha (Lower, max 552, direct election, 5-yr term) + Rajya Sabha (Upper, max 250, indirect, permanent house — 1/3 retire every 2 yrs)</li>
+        <li>Money Bill — only introduced in Lok Sabha (Art 110)</li>
+        <li>President's assent needed for a Bill to become law (Art 111)</li>
+        <li>Speaker of Lok Sabha presides; Rajya Sabha chaired by Vice-President (ex-officio Chairman)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Executive</h3>
+      <ul>
+        <li>President — Art 52; elected by Electoral College (MPs + MLAs), 5-yr term (Art 56); nominal head</li>
+        <li>PM — real executive head, appointed by President (Art 75), leader of majority in Lok Sabha</li>
+        <li>Governor — head of state, appointed by President (Art 155); CM appointed by Governor (Art 164)</li>
+        <li>Council of Ministers aids & advises President (Art 74) — collectively responsible to Lok Sabha</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">4</span>Judiciary & Constitutional Bodies</div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Judiciary</h3>
+      <ul>
+        <li>Supreme Court — Art 124; apex court, CJI + judges; Art 32 (writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto)</li>
+        <li>High Courts — Art 214, one per state (some shared); Art 226 also allows writs</li>
+        <li>Judicial Review — power to examine constitutionality of laws</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Constitutional Bodies</h3>
+      <ul>
+        <li>Election Commission — Art 324, conducts elections (CEC + 2 ECs)</li>
+        <li>CAG — Art 148, audits govt accounts, "guardian of public purse"</li>
+        <li>UPSC — Art 315, recruits civil servants; Finance Commission — Art 280, every 5 yrs (16th FC currently)</li>
+        <li>Attorney General — Art 76, highest law officer of Union</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">5</span>Important Amendments</div>
+  <div class="card">
+    <table>
+      <tr><th>Amendment</th><th>Key change</th></tr>
+      <tr><td>1st (1951)</td><td>Added 9th Schedule; restrictions on freedom of speech</td></tr>
+      <tr><td>42nd (1976)</td><td>"Mini Constitution" — added Socialist, Secular, Integrity; Fundamental Duties</td></tr>
+      <tr><td>44th (1978)</td><td>Removed Right to Property from Fundamental Rights</td></tr>
+      <tr><td>73rd & 74th (1992)</td><td>Panchayati Raj (rural) & Municipalities (urban) — local self-government</td></tr>
+      <tr><td>86th (2002)</td><td>Right to Education (Art 21A) — free education age 6–14</td></tr>
+      <tr><td>101st (2016)</td><td>GST introduced</td></tr>
+      <tr><td>103rd (2019)</td><td>10% EWS reservation</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- ============ ECONOMY ============ -->
+<div class="panel" id="p-economy">
+  <div class="section-title"><span class="section-num">1</span>Core Economic Terms <span class="tag">high yield</span></div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Basic definitions</h3>
+      <ul>
+        <li><b>GDP</b> — total value of goods & services produced within a country's borders</li>
+        <li><b>GNP</b> — GDP + net income from abroad</li>
+        <li><b>Inflation</b> — sustained rise in general price level; measured by WPI (wholesale) & CPI (retail — used for inflation targeting)</li>
+        <li><b>Fiscal Deficit</b> — total expenditure minus total receipts (excluding borrowings)</li>
+        <li><b>Repo Rate</b> — rate at which RBI lends to commercial banks (key monetary policy tool)</li>
+        <li><b>Reverse Repo</b> — rate at which RBI borrows from banks</li>
+      </ul>
+      <div class="trick"><b>Trick</b>Repo ↑ Rate = RBI tightening (control inflation, reduce money supply); Repo ↓ = RBI easing (boost growth).</div>
+    </div>
+    <div class="card">
+      <h3>Five-Year Plans (for static GK)</h3>
+      <ul>
+        <li>1st Plan (1951–56) — agriculture focus, based on Harrod-Domar model</li>
+        <li>2nd Plan (1956–61) — Mahalanobis model, heavy industries</li>
+        <li>NITI Aayog replaced Planning Commission (2015) — no more Five-Year Plans; 15-year vision, 7-year strategy, 3-year action plan</li>
+        <li>12th (last) Plan: 2012–2017</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Banking & Institutions</h3>
+      <ul>
+        <li>RBI — est. 1935, central bank, HQ Mumbai; Governor: Sanjay Malhotra (26th Governor)</li>
+        <li>SEBI — regulates securities market; Chairman: Tuhin Kanta Pandey</li>
+        <li>NABARD — agriculture & rural development bank</li>
+        <li>NPA — Non-Performing Asset (loan not repaid for 90+ days)</li>
+        <li>SLR / CRR — Statutory Liquidity Ratio / Cash Reserve Ratio, tools to control liquidity</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Tax System</h3>
+      <ul>
+        <li>Direct tax — paid directly (Income Tax, Corporate Tax); Indirect tax — passed on (GST, Customs)</li>
+        <li>GST — "One Nation One Tax", launched 1 July 2017; subsumed VAT, excise, service tax</li>
+        <li>GST Council — Art 279A, chaired by Union Finance Minister</li>
+        <li>New Income-tax Act 2025 effective from 1 April 2026</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">2</span>International Economic Organisations</div>
+  <div class="card">
+    <table>
+      <tr><th>Organisation</th><th>HQ</th><th>Note</th></tr>
+      <tr><td>World Bank</td><td>Washington D.C.</td><td>President: Ajay Banga</td></tr>
+      <tr><td>IMF</td><td>Washington D.C.</td><td>Lends to countries facing balance of payment issues</td></tr>
+      <tr><td>WTO</td><td>Geneva</td><td>Regulates international trade</td></tr>
+      <tr><td>ADB</td><td>Manila</td><td>Asian Development Bank</td></tr>
+      <tr><td>AIIB</td><td>Beijing</td><td>Asian Infrastructure Investment Bank</td></tr>
+      <tr><td>NDB (BRICS Bank)</td><td>Shanghai</td><td>New Development Bank</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- ============ SCIENCE ============ -->
+<div class="panel" id="p-science">
+  <div class="section-title"><span class="section-num">1</span>Physics — Quick Facts <span class="tag">high yield</span></div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Units & Measurement</h3>
+      <ul>
+        <li>SI unit of Force — Newton | Work/Energy — Joule | Power — Watt | Pressure — Pascal</li>
+        <li>SI unit of temperature — Kelvin; current — Ampere; frequency — Hertz</li>
+        <li>Speed of light in vacuum — 3×10⁸ m/s (fastest)</li>
+        <li>Sound needs a medium; travels fastest in solids, slowest in gases</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Laws & Concepts</h3>
+      <ul>
+        <li>Newton's 3 Laws of Motion (Inertia, F=ma, Action-Reaction)</li>
+        <li>Archimedes' Principle — buoyant force = weight of displaced fluid</li>
+        <li>Pascal's Law — pressure applied to fluid transmitted equally (hydraulic brakes/lifts)</li>
+        <li>Doppler Effect — apparent change in frequency due to relative motion</li>
+        <li>Convex lens — used in microscope/telescope (magnification); Concave — used to correct myopia</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">2</span>Chemistry — Quick Facts</div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Everyday chemistry</h3>
+      <ul>
+        <li>pH scale: 0–14; <7 acidic, 7 neutral, >7 basic; pH of pure water = 7</li>
+        <li>Baking soda — Sodium bicarbonate (NaHCO₃); Common salt — Sodium chloride (NaCl)</li>
+        <li>Hardest natural substance — Diamond (form of carbon)</li>
+        <li>Rusting — oxidation of iron (needs O₂ + moisture)</li>
+        <li>LPG — mainly butane & propane; CNG — mainly methane</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Elements & Alloys</h3>
+      <ul>
+        <li>Steel = Iron + Carbon | Stainless steel = Iron + Chromium + Nickel</li>
+        <li>Brass = Copper + Zinc | Bronze = Copper + Tin</li>
+        <li>Most abundant element in Earth's crust — Oxygen; in universe — Hydrogen</li>
+        <li>Noble gases: He, Ne, Ar, Kr, Xe, Rn — inert, don't react easily</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">3</span>Biology — Human Body & Diseases <span class="tag">most repeated</span></div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Human body basics</h3>
+      <ul>
+        <li>Largest organ — Skin | Largest gland — Liver | Smallest bone — Stapes (ear)</li>
+        <li>Longest bone — Femur (thigh) | Normal body temp — 37°C (98.6°F)</li>
+        <li>Normal blood pressure — 120/80 mmHg | Blood pH — 7.35–7.45 (slightly alkaline)</li>
+        <li>Red blood cells made in bone marrow; RBC lifespan ~120 days</li>
+        <li>Universal blood donor — O negative; universal recipient — AB positive</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Vitamins & Deficiency <span class="tag">frequent PYQ</span></h3>
+      <table>
+        <tr><th>Vitamin</th><th>Name</th><th>Deficiency disease</th></tr>
+        <tr><td>A</td><td>Retinol</td><td>Night blindness</td></tr>
+        <tr><td>B1</td><td>Thiamine</td><td>Beriberi</td></tr>
+        <tr><td>B2</td><td>Riboflavin</td><td>Cheilosis</td></tr>
+        <tr><td>B3</td><td>Niacin</td><td>Pellagra</td></tr>
+        <tr><td>B12</td><td>Cobalamin</td><td>Pernicious anaemia</td></tr>
+        <tr><td>C</td><td>Ascorbic acid</td><td>Scurvy</td></tr>
+        <tr><td>D</td><td>Calciferol</td><td>Rickets (children), Osteomalacia (adults)</td></tr>
+        <tr><td>K</td><td>Phylloquinone</td><td>Delayed blood clotting</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="pyq"><b>PYQ pattern (2025)</b><p>Q: Deficiency of Vitamin D causes which disease in children? / Q: Which is the largest gland in the human body?</p><div class="ans">Ans: Rickets | Liver</div></div>
+</div>
+
+<!-- ============ STATIC GK ============ -->
+<div class="panel" id="p-staticgk">
+  <div class="section-title"><span class="section-num">1</span>Books & Authors <span class="tag">frequent</span></div>
+  <div class="card">
+    <table>
+      <tr><th>Book</th><th>Author</th></tr>
+      <tr><td>Discovery of India</td><td>Jawaharlal Nehru</td></tr>
+      <tr><td>My Experiments with Truth</td><td>Mahatma Gandhi</td></tr>
+      <tr><td>Arthashastra</td><td>Chanakya (Kautilya)</td></tr>
+      <tr><td>Indica</td><td>Megasthenes</td></tr>
+      <tr><td>Wings of Fire</td><td>A.P.J. Abdul Kalam</td></tr>
+      <tr><td>India Wins Freedom</td><td>Maulana Abul Kalam Azad</td></tr>
+      <tr><td>The Argumentative Indian</td><td>Amartya Sen</td></tr>
+    </table>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Classical Dance Forms</h3>
+      <ul>
+        <li>Bharatanatyam — Tamil Nadu | Kathak — Uttar Pradesh</li>
+        <li>Kathakali & Mohiniyattam — Kerala | Odissi — Odisha</li>
+        <li>Kuchipudi — Andhra Pradesh | Manipuri — Manipur | Sattriya — Assam</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>First in India</h3>
+      <ul>
+        <li>First President — Dr. Rajendra Prasad | First PM — Jawaharlal Nehru</li>
+        <li>First woman PM — Indira Gandhi | First woman President — Pratibha Patil</li>
+        <li>First Indian in space — Rakesh Sharma (1984)</li>
+        <li>First satellite — Aryabhata (1975)</li>
+        <li>First Nobel laureate (Indian) — Rabindranath Tagore (Literature, 1913)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">2</span>Government Schemes (static/recurring)</div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Flagship schemes</h3>
+      <ul>
+        <li>Swachh Bharat Mission (2014) — sanitation</li>
+        <li>Jan Dhan Yojana (2014) — financial inclusion</li>
+        <li>Ayushman Bharat / PM-JAY (2018) — health insurance, world's largest health scheme</li>
+        <li>Beti Bachao Beti Padhao (2015) — girl child welfare</li>
+        <li>PM Awas Yojana — housing for all</li>
+        <li>Make in India (2014), Digital India (2015), Skill India (2015)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Sports GK</h3>
+      <ul>
+        <li>National sport of India — no official national sport (Hockey often mistaken as one)</li>
+        <li>Number of players: Football-11, Hockey-11, Kabaddi-7, Volleyball-6, Basketball-5, Kho-Kho-9</li>
+        <li>Olympic rings — 5 rings, colours: blue, yellow, black, green, red (not race-based, represents 5 continents)</li>
+        <li>Oldest sporting trophy in world — America's Cup (sailing)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="section-num">3</span>Important Days & Dates</div>
+  <div class="card">
+    <table>
+      <tr><th>Date</th><th>Day</th></tr>
+      <tr><td>24 Jan</td><td>National Girl Child Day</td></tr>
+      <tr><td>26 Jan</td><td>Republic Day</td></tr>
+      <tr><td>21 Feb</td><td>International Mother Language Day</td></tr>
+      <tr><td>8 Mar</td><td>International Women's Day</td></tr>
+      <tr><td>22 Mar</td><td>World Water Day</td></tr>
+      <tr><td>22 Apr</td><td>Earth Day</td></tr>
+      <tr><td>5 Jun</td><td>World Environment Day</td></tr>
+      <tr><td>21 Jun</td><td>International Yoga Day</td></tr>
+      <tr><td>15 Aug</td><td>Independence Day</td></tr>
+      <tr><td>5 Sep</td><td>Teachers' Day</td></tr>
+      <tr><td>2 Oct</td><td>Gandhi Jayanti</td></tr>
+      <tr><td>31 Oct</td><td>National Unity Day (Sardar Patel's birthday)</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- ============ CURRENT AFFAIRS ============ -->
+<div class="panel" id="p-ca">
+  <div class="section-title"><span class="section-num">1</span>Top Office Holders — India <span class="tag">as of Sept 2026, always double check nearer exam date</span></div>
+  <div class="card">
+    <table>
+      <tr><th>Post</th><th>Name</th></tr>
+      <tr><td>President of India</td><td>Droupadi Murmu (15th)</td></tr>
+      <tr><td>Vice President / RS Chairman</td><td>C.P. Radhakrishnan (since 12 Sept 2025)</td></tr>
+      <tr><td>Prime Minister</td><td>Narendra Modi</td></tr>
+      <tr><td>Chief Justice of India</td><td>Justice Surya Kant (53rd, since 24 Nov 2025)</td></tr>
+      <tr><td>Lok Sabha Speaker</td><td>Om Birla</td></tr>
+      <tr><td>Chief Election Commissioner</td><td>Gyanesh Kumar</td></tr>
+      <tr><td>RBI Governor</td><td>Sanjay Malhotra (26th)</td></tr>
+      <tr><td>Chief of Defence Staff</td><td>Gen. N.S. Raja Subramani (since 31 May 2026)</td></tr>
+      <tr><td>Attorney General</td><td>R. Venkataramani (16th)</td></tr>
+      <tr><td>SEBI Chairman</td><td>Tuhin Kanta Pandey</td></tr>
+    </table>
+    <div class="trick"><b>Trick</b>SSC often asks "who is the current ___" — these Who's Who facts change; re-verify the week before your exam since this can shift right up to Oct 2026.</div>
+  </div>
+
+  <div class="section-title"><span class="section-num">2</span>Recent CM Changes 2026 <span class="tag">exam-relevant, states/UTs</span></div>
+  <div class="card">
+    <ul>
+      <li>West Bengal — Suvendu Adhikari (BJP) took over as CM in May 2026 — first BJP CM of West Bengal</li>
+      <li>Tamil Nadu — Chandrasekaran Joseph "Vijay" (TVK) became CM on 10 May 2026, after 2026 assembly elections</li>
+      <li>Bihar — Samrat Choudhary (BJP) is CM after the late-2025 Bihar assembly election result</li>
+      <li>Delhi — Rekha Gupta (BJP), CM since early 2025</li>
+      <li>Manipur — Yumnam Khemchand Singh became CM in 2026</li>
+      <li>Female CMs currently: Mamata Banerjee's successor changed WB; Rekha Gupta (Delhi) remains a key one-liner answer for "female CM"</li>
+    </ul>
+    <div class="pyq"><b>PYQ-style expected question</b><p>Q: Who became the first BJP Chief Minister of West Bengal in 2026?</p><div class="ans">Ans: Suvendu Adhikari</div></div>
+  </div>
+
+  <div class="section-title"><span class="section-num">3</span>BRICS 2026 <span class="tag">explicitly requested — high probability</span></div>
+  <div class="card">
+    <ul>
+      <li>18th BRICS Summit hosted by <b>India</b>, at Bharat Mandapam, New Delhi, 12–13 September 2026</li>
+      <li>India assumed BRICS Chairship on 1 Jan 2026 — India's 4th chairship (after 2012, 2016, 2021)</li>
+      <li>Theme: "Building for Resilience, Innovation, Cooperation and Sustainability" — reflects PM Modi's "Humanity First" vision</li>
+      <li>2026 marks 20 years since BRICS was established</li>
+      <li>Full BRICS membership (11 nations): Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia, Saudi Arabia (invited)</li>
+      <li>19th BRICS Summit (2027) will be hosted by China</li>
+      <li>BRICS bank = New Development Bank (NDB), HQ Shanghai</li>
+    </ul>
+    <div class="pyq"><b>PYQ-style expected question</b><p>Q: Where was the 18th BRICS Summit 2026 held? / Q: What is the theme of India's 2026 BRICS Chairship?</p><div class="ans">Ans: Bharat Mandapam, New Delhi | "Building for Resilience, Innovation, Cooperation and Sustainability"</div></div>
+  </div>
+
+  <div class="section-title"><span class="section-num">4</span>Khelo India <span class="tag">explicitly requested</span></div>
+  <div class="card">
+    <ul>
+      <li><b>Khelo India Youth Games (KIYG) 2025</b> — 7th edition, hosted by <b>Bihar</b> (Patna, Patliputra Sports Complex); winner: <b>Maharashtra</b> (3rd consecutive title, 158 medals), Haryana 2nd, Rajasthan 3rd</li>
+      <li><b>KIYG 2026</b> — 8th edition to be hosted by <b>Telangana</b> in November 2026 (2nd southern state after Tamil Nadu 2024)</li>
+      <li><b>Khelo India Tribal Games (KITG) 2026</b> — inaugural edition, hosted by <b>Chhattisgarh</b> (Raipur, Jagdalpur, Surguja), 25 Mar–3 Apr 2026; mascot "Morveer"; winner: <b>Karnataka</b> (23 gold), host Chhattisgarh finished 9th</li>
+      <li><b>Khelo India Beach Games (KIBG) 2026</b> — 2nd edition, hosted by Diu (UT); winner: <b>Karnataka</b> (3 gold, 2 silver, 6 bronze); Manipur won inaugural 2025 edition</li>
+      <li>Khelo India began in 2018 as Khelo India School Games; run by Ministry of Youth Affairs & Sports</li>
+    </ul>
+    <div class="trick"><b>Trick</b>Remember by acronym: KIYG (Youth, annual, biggest), KIPG (Para, since 2023), KIBG (Beach, since 2025), KIWSF (Water Sports, since 2025), KITG (Tribal, debuted 2026).</div>
+    <div class="pyq"><b>PYQ-style expected question</b><p>Q: Which state hosted the inaugural Khelo India Tribal Games 2026? / Q: Which state won the Khelo India Youth Games 2025?</p><div class="ans">Ans: Chhattisgarh | Maharashtra</div></div>
+  </div>
+
+  <div class="section-title"><span class="section-num">5</span>Union Budget 2026–27</div>
+  <div class="card">
+    <ul>
+      <li>Presented by FM Nirmala Sitharaman on <b>1 Feb 2026</b> — her <b>9th consecutive Budget</b> (highest ever by any FM)</li>
+      <li>Built around "3 Kartavyas": accelerating economic growth, building people's capacity, ensuring inclusive access to opportunities</li>
+      <li>Called a "Yuva Shakti-driven" and "futuristic" Budget by PM Modi</li>
+      <li>Defence sector got all-time high allocation: ₹7.85 lakh crore</li>
+      <li>Real GDP growth estimate for FY26: 7.4%; nominal GDP growth ~8%</li>
+      <li>Key announcements: Semiconductor Mission 2.0, Rare Earth Corridors, Biopharma manufacturing hub push, Mahatma Gandhi Gram Swaraj initiative (khadi/handloom)</li>
+      <li>New Income-tax Act 2025 comes into force from 1 April 2026</li>
+    </ul>
+  </div>
+
+  <div class="section-title"><span class="section-num">6</span>Nobel Prizes 2025 <span class="tag">very high probability</span></div>
+  <div class="card">
+    <table>
+      <tr><th>Category</th><th>Winner(s)</th><th>For</th></tr>
+      <tr><td>Peace</td><td>María Corina Machado (Venezuela)</td><td>Fight for democracy in Venezuela</td></tr>
+      <tr><td>Literature</td><td>László Krasznahorkai (Hungary)</td><td>Visionary body of work</td></tr>
+      <tr><td>Physics</td><td>John Clarke, Michel Devoret, John M. Martinis</td><td>Macroscopic quantum tunnelling in electric circuits</td></tr>
+      <tr><td>Chemistry</td><td>Susumu Kitagawa, Richard Robson, Omar M. Yaghi</td><td>Metal-organic frameworks (MOFs)</td></tr>
+      <tr><td>Medicine</td><td>Mary Brunkow, Fred Ramsdell, Shimon Sakaguchi</td><td>Peripheral immune tolerance</td></tr>
+      <tr><td>Economics</td><td>Joel Mokyr, Philippe Aghion, Peter Howitt</td><td>Innovation-driven economic growth</td></tr>
+    </table>
+    <div class="pyq"><b>PYQ-style expected question</b><p>Q: Who won the 2025 Nobel Peace Prize?</p><div class="ans">Ans: María Corina Machado (Venezuela)</div></div>
+  </div>
+
+  <div class="section-title"><span class="section-num">7</span>Awards & Sports Honours</div>
+  <div class="card">
+    <ul>
+      <li><b>Padma Awards 2026</b> — 131 total approved: 5 Padma Vibhushan, 13 Padma Bhushan, 113 Padma Shri; 19 women, 16 posthumous</li>
+      <li>Notable 2026 Padma Bhushan: Vijay Amritraj (Sports/tennis), Uday Kotak</li>
+      <li>National Sports Awards 2025 — Murlikant Petkar (80-yr-old Paralympic gold medallist, war hero) received Lifetime Arjuna Award</li>
+      <li>Sahitya Akademi Awards 2025 — honoured works across 24 Indian languages</li>
+    </ul>
+  </div>
+
+  <div class="section-title"><span class="section-num">8</span>Sports Events 2025–26</div>
+  <div class="card">
+    <ul>
+      <li>2025 Asia Cup (T20, UAE) — <b>India won</b> (9th title), beat Pakistan in final</li>
+      <li>2026 ICC Men's T20 World Cup — hosted by <b>India (+ Sri Lanka)</b>; final at Narendra Modi Stadium, Ahmedabad — <b>India won</b>, beat New Zealand by 96 runs (8 March 2026)</li>
+      <li>2026 Asian Games — to be held in <b>Aichi-Nagoya, Japan</b>, Sept–Oct 2026; cricket returns to Asian Games</li>
+      <li>2026 Commonwealth Games — Glasgow, Scotland (23 Jul–2 Aug 2026)</li>
+      <li>2025 ICC Champions Trophy and 2025 ICC Women's ODI World Cup were also held in 2025</li>
+    </ul>
+    <div class="pyq"><b>PYQ-style expected question</b><p>Q: India won the 2026 ICC Men's T20 World Cup final against which team?</p><div class="ans">Ans: New Zealand</div></div>
+  </div>
+
+  <div class="section-title"><span class="section-num">9</span>Other Must-Know 2025–26 Current Affairs</div>
+  <div class="card">
+    <ul>
+      <li>16th Finance Commission — recommendations relevant for devolution of taxes to states</li>
+      <li>Global Hunger Index (GHI) — India's rank tracked annually, always check latest before exam</li>
+      <li>ISRO — continued Gaganyaan mission preparations; regular satellite launches (PSLV/GSLV/LVM3)</li>
+      <li>India assumed G20-related and multilateral leadership roles alongside BRICS chairship in 2026</li>
+      <li>Scheduled Caste Categorisation of Reservations Act, 2025 — first implemented by a state (check latest notification before exam)</li>
+    </ul>
+    <div class="pill-row">
+      <span class="pill">Revise this tab last, 2 days before exam</span>
+      <span class="pill">Cross-check dates close to exam date</span>
+      <span class="pill">Oct 2025 – Oct 2026 window</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ QUIZ ============ -->
+<div class="panel" id="p-quiz">
+  <div class="section-title"><span class="section-num">✓</span>Quiz Mode</div>
+  <div class="section-sub">Pick a category or mix everything. Click an option to see if you're right — explanation shown either way.</div>
+  <div class="quiz-cat-picker" id="catPicker"></div>
+  <div class="quiz-box">
+    <div class="quiz-top">
+      <div class="quiz-progress" id="qProgress">Question 1 of 10</div>
+      <div class="quiz-score">Score: <span id="qScore">0</span></div>
+    </div>
+    <div id="quizArea"></div>
+  </div>
+</div>
+
+</div>
+
+<div class="foot">Built for Siddhant's SSC CGL 2026 Tier‑I prep · Cross-check current-affairs dates against the latest notifications closer to your exam date · Good luck — go get that top 20 rank.</div>
+
+<script>
+function go(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.p===id));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active', p.id==='p-'+id));
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click', ()=>go(t.dataset.p)));
+
+/* ============ QUIZ DATA ============ */
+const QUIZ = [
+  // History
+  {cat:"History", q:"Who founded the Indian National Congress in 1885?", opts:["A.O. Hume","W.C. Banerjee","Dadabhai Naoroji","Surendranath Banerjee"], a:0, e:"A.O. Hume founded the INC in 1885; W.C. Banerjee was the first President of its first session in Bombay."},
+  {cat:"History", q:"The Jallianwala Bagh massacre (1919) took place in which city?", opts:["Lahore","Amritsar","Delhi","Lucknow"], a:1, e:"Amritsar, Punjab — ordered by General Reginald Dyer."},
+  {cat:"History", q:"Gautam Buddha attained enlightenment at which place?", opts:["Sarnath","Kushinagar","Bodh Gaya","Lumbini"], a:2, e:"Bodh Gaya — under the Bodhi tree; born at Lumbini, first sermon at Sarnath, died at Kushinagar."},
+  {cat:"History", q:"Which Mughal emperor built the Taj Mahal?", opts:["Akbar","Jahangir","Shah Jahan","Aurangzeb"], a:2, e:"Shah Jahan built the Taj Mahal in memory of Mumtaz Mahal."},
+  {cat:"History", q:"The Battle of Plassey (1757) was fought between the British and which ruler?", opts:["Tipu Sultan","Siraj-ud-Daulah","Bahadur Shah II","Mir Qasim"], a:1, e:"Robert Clive defeated Siraj-ud-Daulah, Nawab of Bengal, establishing British dominance in Bengal."},
+  {cat:"History", q:"Who gave the slogan 'Do or Die' during the Quit India Movement (1942)?", opts:["Subhas Chandra Bose","Bhagat Singh","Mahatma Gandhi","Jawaharlal Nehru"], a:2, e:"Mahatma Gandhi gave this call at the start of the Quit India Movement in 1942."},
+  {cat:"History", q:"The first Battle of Panipat (1526) was fought between Babur and:", opts:["Ibrahim Lodi","Rana Sanga","Hemu","Sher Shah Suri"], a:0, e:"Babur defeated Ibrahim Lodi, the last Lodi Sultan, founding the Mughal Empire."},
+  {cat:"History", q:"Mohenjo-daro is located on the banks of which river?", opts:["Ravi","Indus","Sutlej","Ghaggar"], a:1, e:"Mohenjo-daro (Sindh, now Pakistan) is on the Indus river."},
+  // Geography
+  {cat:"Geography", q:"Which is the longest river of the Indian Peninsula?", opts:["Krishna","Godavari","Kaveri","Narmada"], a:1, e:"Godavari, called 'Dakshin Ganga', is the longest peninsular river."},
+  {cat:"Geography", q:"Mawsynram, the wettest place in the world, is located in which state?", opts:["Assam","Meghalaya","Kerala","Manipur"], a:1, e:"Mawsynram, Meghalaya, receives the highest average rainfall in the world."},
+  {cat:"Geography", q:"The McMahon Line demarcates the border between India and which country?", opts:["Pakistan","Nepal","China","Bangladesh"], a:2, e:"McMahon Line is the boundary between India (Arunachal Pradesh) and China (Tibet)."},
+  {cat:"Geography", q:"Which of these rivers flows westward into the Arabian Sea?", opts:["Godavari","Krishna","Narmada","Kaveri"], a:2, e:"Narmada and Tapi are exceptions — they flow west through rift valleys into the Arabian Sea."},
+  {cat:"Geography", q:"Which Indian state has the longest coastline?", opts:["Tamil Nadu","Gujarat","Andhra Pradesh","Maharashtra"], a:1, e:"Gujarat has India's longest coastline at ~1,600 km."},
+  {cat:"Geography", q:"The Tropic of Cancer does NOT pass through which of these states?", opts:["Gujarat","Rajasthan","Punjab","West Bengal"], a:2, e:"Punjab is not among the 8 states the Tropic of Cancer passes through (Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram)."},
+  // Polity
+  {cat:"Polity", q:"Which Article of the Indian Constitution is called the 'Heart and Soul' of the Constitution?", opts:["Article 21","Article 32","Article 19","Article 14"], a:1, e:"Article 32 (Right to Constitutional Remedies) was called the Heart and Soul by Dr. B.R. Ambedkar."},
+  {cat:"Polity", q:"The 42nd Constitutional Amendment (1976) is known as:", opts:["Mini Constitution","GST Amendment","Panchayati Raj Amendment","EWS Amendment"], a:0, e:"The 42nd Amendment made sweeping changes including adding 'Socialist' & 'Secular' to the Preamble — called the Mini Constitution."},
+  {cat:"Polity", q:"Who appoints the Chief Minister of a state?", opts:["President","Prime Minister","Governor","Chief Justice of High Court"], a:2, e:"Article 164 — the Governor appoints the Chief Minister."},
+  {cat:"Polity", q:"A Money Bill can only be introduced in which house of Parliament?", opts:["Rajya Sabha","Lok Sabha","Either house","Joint sitting"], a:1, e:"Article 110 — Money Bills can only originate in the Lok Sabha."},
+  {cat:"Polity", q:"Which Amendment introduced GST in India?", opts:["101st","103rd","86th","73rd"], a:0, e:"The 101st Constitutional Amendment (2016) introduced the Goods and Services Tax."},
+  {cat:"Polity", q:"Fundamental Duties were added to the Constitution by which Amendment?", opts:["44th","42nd","86th","73rd"], a:1, e:"The 42nd Amendment (1976) added Fundamental Duties (Article 51A), based on the Swaran Singh Committee recommendations."},
+  {cat:"Polity", q:"How many Fundamental Rights are currently guaranteed by the Indian Constitution?", opts:["7","6","5","8"], a:1, e:"Originally 7; Right to Property was removed by the 44th Amendment (1978), leaving 6."},
+  // Economy
+  {cat:"Economy", q:"Repo Rate is the rate at which:", opts:["RBI borrows from banks","RBI lends to commercial banks","Banks lend to customers","Government borrows from RBI"], a:1, e:"Repo Rate is the rate at which RBI lends short-term funds to commercial banks."},
+  {cat:"Economy", q:"GST was launched in India on:", opts:["1 April 2017","1 July 2017","1 Jan 2018","26 Jan 2017"], a:1, e:"GST ('One Nation One Tax') was launched on 1 July 2017."},
+  {cat:"Economy", q:"Which body regulates India's securities market?", opts:["RBI","SEBI","NABARD","IRDAI"], a:1, e:"SEBI (Securities and Exchange Board of India) regulates the securities/stock market."},
+  {cat:"Economy", q:"The Planning Commission was replaced by which body in 2015?", opts:["Finance Commission","NITI Aayog","GST Council","RBI"], a:1, e:"NITI Aayog (National Institution for Transforming India) replaced the Planning Commission in 2015."},
+  {cat:"Economy", q:"CPI is used mainly to measure:", opts:["GDP growth","Retail inflation","Fiscal deficit","Exchange rate"], a:1, e:"Consumer Price Index (CPI) measures retail inflation and is RBI's key inflation-targeting metric."},
+  // Science
+  {cat:"Science", q:"Deficiency of Vitamin D causes which disease in children?", opts:["Scurvy","Rickets","Beriberi","Pellagra"], a:1, e:"Vitamin D deficiency causes Rickets in children and Osteomalacia in adults."},
+  {cat:"Science", q:"Which is the largest gland in the human body?", opts:["Pancreas","Thyroid","Liver","Pituitary"], a:2, e:"The liver is the largest gland (and largest internal organ) in the human body."},
+  {cat:"Science", q:"SI unit of electric current is:", opts:["Volt","Ampere","Ohm","Watt"], a:1, e:"Ampere is the SI unit of electric current."},
+  {cat:"Science", q:"Baking soda is chemically known as:", opts:["Sodium chloride","Sodium bicarbonate","Calcium carbonate","Sodium hydroxide"], a:1, e:"Baking soda = Sodium bicarbonate (NaHCO3)."},
+  {cat:"Science", q:"Which blood group is known as the universal donor?", opts:["AB+","O-","A+","B-"], a:1, e:"O negative blood can be given to any blood group, making it the universal donor."},
+  {cat:"Science", q:"Steel is an alloy of iron and:", opts:["Zinc","Tin","Carbon","Chromium"], a:2, e:"Steel = Iron + Carbon. Stainless steel additionally has Chromium and Nickel."},
+  {cat:"Science", q:"Archimedes' Principle relates to:", opts:["Buoyant force","Electric current","Light refraction","Sound waves"], a:0, e:"Archimedes' Principle: buoyant force on a body equals the weight of fluid displaced."},
+  // Static GK
+  {cat:"Static GK", q:"Bharatanatyam is the classical dance form of which state?", opts:["Kerala","Tamil Nadu","Odisha","Assam"], a:1, e:"Bharatanatyam originated in and is associated with Tamil Nadu."},
+  {cat:"Static GK", q:"Who wrote 'Discovery of India'?", opts:["Mahatma Gandhi","Jawaharlal Nehru","Rabindranath Tagore","A.P.J. Abdul Kalam"], a:1, e:"Jawaharlal Nehru wrote 'The Discovery of India' while imprisoned during 1942–46."},
+  {cat:"Static GK", q:"Who was the first Indian to go to space?", opts:["Kalpana Chawla","Rakesh Sharma","Sunita Williams","Vikram Sarabhai"], a:1, e:"Rakesh Sharma flew aboard Soyuz T-11 in 1984, becoming the first Indian in space."},
+  {cat:"Static GK", q:"India's first satellite, launched in 1975, was named:", opts:["Bhaskara","Aryabhata","Rohini","INSAT-1"], a:1, e:"Aryabhata was India's first satellite, launched on 19 April 1975."},
+  {cat:"Static GK", q:"How many players are there in a Kabaddi team on the field?", opts:["9","11","7","6"], a:2, e:"Kabaddi is played with 7 players per side on the field."},
+  // Current Affairs
+  {cat:"Current Affairs", q:"Where was the 18th BRICS Summit 2026 held?", opts:["Rio de Janeiro","Johannesburg","New Delhi (Bharat Mandapam)","Beijing"], a:2, e:"The 18th BRICS Summit was hosted by India at Bharat Mandapam, New Delhi (12–13 Sept 2026)."},
+  {cat:"Current Affairs", q:"What is the theme of India's 2026 BRICS Chairship?", opts:["Humanity First","Building for Resilience, Innovation, Cooperation and Sustainability","One Earth One Family","BRICS@20"], a:1, e:"The official theme is 'Building for Resilience, Innovation, Cooperation and Sustainability'."},
+  {cat:"Current Affairs", q:"Which state hosted the inaugural Khelo India Tribal Games 2026?", opts:["Jharkhand","Odisha","Chhattisgarh","Madhya Pradesh"], a:2, e:"Chhattisgarh hosted KITG 2026 (25 Mar–3 Apr) across Raipur, Jagdalpur and Surguja; Karnataka won overall."},
+  {cat:"Current Affairs", q:"Which state won the Khelo India Youth Games 2025 (hosted by Bihar)?", opts:["Haryana","Maharashtra","Rajasthan","Karnataka"], a:1, e:"Maharashtra won its 3rd consecutive KIYG title in 2025 with 158 medals."},
+  {cat:"Current Affairs", q:"Which state is set to host Khelo India Youth Games 2026?", opts:["Telangana","Kerala","Punjab","Odisha"], a:0, e:"Telangana will host KIYG 2026 in November — the 2nd southern state to host after Tamil Nadu (2024)."},
+  {cat:"Current Affairs", q:"Who presented the Union Budget 2026-27, and which consecutive budget was it for her?", opts:["Nirmala Sitharaman, 9th","Piyush Goyal, 5th","Nirmala Sitharaman, 7th","Arun Jaitley, 6th"], a:0, e:"Nirmala Sitharaman presented her 9th consecutive Union Budget on 1 Feb 2026 — the highest by any Finance Minister."},
+  {cat:"Current Affairs", q:"Who won the 2025 Nobel Peace Prize?", opts:["Volodymyr Zelensky","María Corina Machado","Narges Mohammadi","António Guterres"], a:1, e:"María Corina Machado (Venezuela) won the 2025 Nobel Peace Prize for her fight for democracy."},
+  {cat:"Current Affairs", q:"The 2025 Nobel Prize in Literature went to:", opts:["László Krasznahorkai","Han Kang","Jon Fosse","Annie Ernaux"], a:0, e:"Hungarian author László Krasznahorkai won the 2025 Nobel Prize in Literature."},
+  {cat:"Current Affairs", q:"India won the 2026 ICC Men's T20 World Cup final, defeating:", opts:["Australia","South Africa","New Zealand","Pakistan"], a:2, e:"India beat New Zealand by 96 runs in the final at Narendra Modi Stadium, Ahmedabad (8 March 2026)."},
+  {cat:"Current Affairs", q:"India won the 2025 Asia Cup (T20) final against:", opts:["Sri Lanka","Bangladesh","Pakistan","Afghanistan"], a:2, e:"India defeated Pakistan by 5 wickets in the 2025 Asia Cup final held in Dubai, winning its 9th title."},
+  {cat:"Current Affairs", q:"Who is the current Chief Justice of India (as of late 2025/2026)?", opts:["D.Y. Chandrachud","Sanjiv Khanna","Surya Kant","B.R. Gavai"], a:2, e:"Justice Surya Kant became the 53rd CJI on 24 November 2025."},
+  {cat:"Current Affairs", q:"Who is the current RBI Governor?", opts:["Shaktikanta Das","Sanjay Malhotra","Urjit Patel","Raghuram Rajan"], a:1, e:"Sanjay Malhotra is the 26th Governor of the Reserve Bank of India."},
+  {cat:"Current Affairs", q:"India assumed the BRICS Chairship for 2026 on which date?", opts:["26 Jan 2026","1 Jan 2026","1 Apr 2026","15 Aug 2025"], a:1, e:"India assumed the BRICS Chairship on 1 January 2026 — its 4th chairship overall."},
+  {cat:"Current Affairs", q:"How many Padma Awards were approved for 2026?", opts:["121","131","141","111"], a:1, e:"131 Padma Awards were approved for 2026: 5 Padma Vibhushan, 13 Padma Bhushan, 113 Padma Shri."},
+  {cat:"Current Affairs", q:"The 2026 Asian Games will be held in which country?", opts:["China","South Korea","Japan","Qatar"], a:2, e:"The 2026 Asian Games will be held in Aichi-Nagoya, Japan (Sept–Oct 2026); cricket returns as a sport."}
+];
+
+let currentCat = "All";
+let quizOrder = [];
+let qIndex = 0;
+let score = 0;
+let answered = false;
+
+function buildCatPicker(){
+  const cats = ["All", ...new Set(QUIZ.map(q=>q.cat))];
+  const picker = document.getElementById('catPicker');
+  picker.innerHTML = "";
+  cats.forEach(c=>{
+    const b = document.createElement('button');
+    b.className = 'cat-btn' + (c===currentCat ? ' on':'');
+    b.textContent = c;
+    b.onclick = ()=>{ currentCat = c; startQuiz(); buildCatPicker(); };
+    picker.appendChild(b);
+  });
+}
+
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+
+function startQuiz(){
+  const pool = currentCat==="All" ? QUIZ : QUIZ.filter(q=>q.cat===currentCat);
+  quizOrder = shuffle(pool);
+  qIndex = 0; score = 0; answered = false;
+  renderQuestion();
+}
+
+function renderQuestion(){
+  answered = false;
+  document.getElementById('qScore').textContent = score;
+  if(qIndex >= quizOrder.length){ renderResult(); return; }
+  document.getElementById('qProgress').textContent = `Question ${qIndex+1} of ${quizOrder.length} · ${quizOrder[qIndex].cat}`;
+  const item = quizOrder[qIndex];
+  const area = document.getElementById('quizArea');
+  area.innerHTML = `
+    <div class="qtext">${item.q}</div>
+    <div id="optsWrap"></div>
+    <div class="quiz-explain" id="explainBox">${item.e}</div>
+    <div class="quiz-nav"><button class="btn" id="nextBtn" style="display:none" onclick="nextQuestion()">Next →</button></div>
+  `;
+  const optsWrap = document.getElementById('optsWrap');
+  item.opts.forEach((opt, i)=>{
+    const b = document.createElement('button');
+    b.className = 'opt';
+    b.textContent = opt;
+    b.onclick = ()=>selectAnswer(i);
+    optsWrap.appendChild(b);
+  });
+}
+
+function selectAnswer(i){
+  if(answered) return;
+  answered = true;
+  const item = quizOrder[qIndex];
+  const opts = document.querySelectorAll('#optsWrap .opt');
+  opts.forEach((el, idx)=>{
+    el.disabled = true;
+    if(idx === item.a) el.classList.add('correct');
+    else if(idx === i) el.classList.add('wrong');
+  });
+  if(i === item.a) score++;
+  document.getElementById('qScore').textContent = score;
+  document.getElementById('explainBox').style.display = 'block';
+  document.getElementById('nextBtn').style.display = 'inline-block';
+}
+
+function nextQuestion(){
+  qIndex++;
+  renderQuestion();
+}
+
+function renderResult(){
+  const area = document.getElementById('quizArea');
+  const pct = Math.round((score/quizOrder.length)*100);
+  area.innerHTML = `
+    <div class="quiz-result">
+      <div class="score-big">${score} / ${quizOrder.length}</div>
+      <p style="margin:10px 0 20px;color:var(--sub);font-size:14px;">${pct}% correct — ${pct>=80?'excellent, exam-ready on this set!':pct>=60?'solid, revise the misses.':'go back through the notes tab for this category.'}</p>
+      <button class="btn" onclick="startQuiz()">Retry</button>
+      <button class="btn secondary" onclick="currentCat='All'; buildCatPicker(); startQuiz();">Mix All Topics</button>
+    </div>
+  `;
+  document.getElementById('qProgress').textContent = 'Quiz complete';
+}
+
+buildCatPicker();
+startQuiz();
+</script>
+</body>
+</html>
